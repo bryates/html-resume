@@ -3,3 +3,25 @@ position: Data Scientist
 email: brentRyates@gmail.com
 linkedin:  linkedin.com/in/brentyates
 portfolio: datascienceportfol.io/brentRyates
+positions:
+  - title: Postdoctoral Researcher
+    company: The Ohio State University
+    location: Columbus, OH
+    date: 
+      - 2019
+      - present
+    description:
+      - Accelerated data processing by 5x by implementing a columnar data framework
+      - Improved statistical accuracy by up to 50% through identification of key metrics
+      - Led large analysis team and co-authored multiple publications using advanced statistical modeling
+      - Enhanced statistical methods of 2 published analyses as sub-group convener
+educations:
+  - degree: Ph.D. in Physics
+    institution: University of California, Riverside
+    location: Riverside, CA
+    date: 
+      - 2013
+      - 2019
+    description:
+      - "Dissertation: Modeling b-quark fragmentation in 13 TeV proton-proton collisions"
+      - Improved statistical measurement of a key modeling parameter by performing the first measurement on the CMS experiment
