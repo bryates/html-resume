@@ -7,5 +7,7 @@ app = Flask(__name__)
 def index():
     with open('data/yates.yml', 'r') as file:
         html_vars = yaml.safe_load(file)
-    print(html_vars)  # Debugging line to check the loaded data
     return render_template('resume.html', **html_vars)
+
+if __name__ == '__main__':
+    app.run(debug=True)
