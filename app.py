@@ -7,6 +7,14 @@ app = Flask(__name__)
 def index():
     with open('data/yates.yml', 'r') as file:
         html_vars = yaml.safe_load(file)
+    html_vars['style'] = 'style.css'
+    return render_template('resume.html', **html_vars)
+
+@app.route('/<style>')
+def style(style):
+    with open('data/yates.yml', 'r') as file:
+        html_vars = yaml.safe_load(file)
+    html_vars['style'] = f'style_{style}.css'
     return render_template('resume.html', **html_vars)
 
 if __name__ == '__main__':
