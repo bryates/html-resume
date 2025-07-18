@@ -115,10 +115,10 @@
           Contact Info
         </h1>
         <ul>
-          <li><i class="fa fa-envelope"></i> {{ email }}</li>
-          <li><i class="fa-brands fa-linkedin"></i> {{ linkedin }}</li>
-          <li><i class="fa fa-globe"></i> {{ portfolio }}</li>
-          <li><i class="fa fa-phone"></i> 800.000.0000</li>
+          <li><i class="fa fa-envelope"></i> <a href="mailto:{{ email }}">{{ email }}</a></li>
+          <li><i class="fa-brands fa-linkedin"></i> <a href="http://{{ linkedin }}">{{ linkedin }}</a></li>
+          <li><i class="fa fa-globe"></i> <a href="http://{{ portfolio }}">{{ portfolio }}</a></li>
+          <li><i class="fa fa-phone"></i> {{ phone }}</li>
         </ul>
       </div>
       <div class="side-block" id="skills">
@@ -126,12 +126,10 @@
           Skills
         </h1>
         <ul>
-          <li>Omnipresence</li>
-          <li>Anonymity</li>
-        </ul>
-        <ul>
-          <li>Ordinarity</li>
-          <li>No name rights</li>
+          {% for skillset in skills %}
+            <h5>{{ skillset }}:</h5>
+            {{ ', '.join(skills[skillset]) }}
+          {% endfor %}
         </ul>
       </div>
     </aside>

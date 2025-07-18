@@ -1,6 +1,7 @@
 name: Brent Yates
 position: Data Scientist
 email: brentRyates@gmail.com
+phone: (949) 235-9824
 linkedin:  linkedin.com/in/brentyates
 portfolio: datascienceportfol.io/brentRyates
 sumary:
@@ -8,6 +9,33 @@ sumary:
   Skilled at extracting actionable insights from complex datasets by combining domain expertise with data-driven methods. 
   Proficient in Python, SQL, Linux, and HPC environments with a strong publication record. 
   Hands-on experience training DNNs and XGBoost models, and deploying containerized solutions on AWS.
+skills:
+  Languages: 
+  - Python
+  - C++
+  - SQL
+  - Bash
+  - JavaScript
+  Tools & Libraries: 
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - SciPy
+  - Google Suite and GitHub for collaboration and documentation
+  - Linux
+  - Jupyter Notebooks
+  - ML
+  - PyTorch
+  - Docker
+  - AWS
+  Data Technologies: 
+  - SQL databases
+  - data wrangling
+  - statistical methods
+  Concepts: 
+  - Data pipelines
+  - High-throughput processing
+
 positions:
   - title: Postdoctoral Researcher
     company: The Ohio State University

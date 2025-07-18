@@ -49,11 +49,15 @@ li{
   list-style-type: none;
 }
 
+a:link, a:visited{
+  color: #444;
+}
+
 #main{
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 7pt;
+  font-size: 8.5pt;
 }
 
 #sidebar{
@@ -63,7 +67,7 @@ li{
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
-  font-size: 8.5pt;
+  font-size: 8.6pt;
 }
 
 /* main */
