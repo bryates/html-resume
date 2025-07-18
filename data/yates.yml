@@ -3,6 +3,8 @@ position: Data Scientist
 email: brentRyates@gmail.com
 linkedin:  linkedin.com/in/brentyates
 portfolio: datascienceportfol.io/brentRyates
+sumary:
+  Data scientist with a PhD in High Energy Physics and 6+ years of experience in statistical modeling, hypothesis testing, and large-scale data analysis. Skilled at extracting actionable insights from complex datasets by combining domain expertise with data-driven methods. Proficient in Python, SQL, Linux, and HPC environments with a strong publication record. Hands-on experience training DNNs and XGBoost models, and deploying containerized solutions on AWS.
 positions:
   - title: Postdoctoral Researcher
     company: The Ohio State University
@@ -25,3 +27,18 @@ educations:
     description:
       - "Dissertation: Modeling b-quark fragmentation in 13 TeV proton-proton collisions"
       - Improved statistical measurement of a key modeling parameter by performing the first measurement on the CMS experiment
+projects:
+  - title: Particle Momentum Prediction - PyTorch, Jupyter Notebook, Docker, AWS
+    company: Personal Project
+    date: 
+      - 2025
+      - 2025
+    description: 
+      - Trained a DNN to predict properties of particles based on their decay products and deployed the model in a containerized AWS EC2 instance.
+  - title: U.S. Climate Forecasting - XGBoost, Kaggle, Data Cleaning, Data Visualization
+    company: Personal Project
+    date: 
+      - 2025
+      - 2025
+    description: 
+      - Visualized historical U.S. climate trends and trained a temperature prediction model using XGBoost
