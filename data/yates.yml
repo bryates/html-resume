@@ -4,7 +4,10 @@ email: brentRyates@gmail.com
 linkedin:  linkedin.com/in/brentyates
 portfolio: datascienceportfol.io/brentRyates
 sumary:
-  Data scientist with a PhD in High Energy Physics and 6+ years of experience in statistical modeling, hypothesis testing, and large-scale data analysis. Skilled at extracting actionable insights from complex datasets by combining domain expertise with data-driven methods. Proficient in Python, SQL, Linux, and HPC environments with a strong publication record. Hands-on experience training DNNs and XGBoost models, and deploying containerized solutions on AWS.
+  Data scientist with a PhD in High Energy Physics and 6+ years of experience in statistical modeling, hypothesis testing, and large-scale data analysis. 
+  Skilled at extracting actionable insights from complex datasets by combining domain expertise with data-driven methods. 
+  Proficient in Python, SQL, Linux, and HPC environments with a strong publication record. 
+  Hands-on experience training DNNs and XGBoost models, and deploying containerized solutions on AWS.
 positions:
   - title: Postdoctoral Researcher
     company: The Ohio State University

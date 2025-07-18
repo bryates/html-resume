@@ -10,8 +10,21 @@
     <section id="main">
       <header id="title">
         <h1>{{ name }}</h1>
-        <span class="subtitle">{{ position }}</span>
+        <span class="subtitle">{{ position }}</span><br>
       </header>
+      <section class="main-block">
+        <h2>
+          <i class="fa fa-user"></i> Summary
+        </h2>
+        <section class="blocks">
+          <div class="date">
+          </div>
+          <div class="decorator"></div>
+          <div class="details">
+              <span>{{ sumary }}</span>
+          </div>
+        </section>
+      </section>
       <section class="main-block">
         <h2>
           <i class="fa fa-suitcase"></i> Experiences
@@ -120,9 +133,6 @@
           <li>Ordinarity</li>
           <li>No name rights</li>
         </ul>
-      </div>
-      <div class="side-block" id="disclaimer">
-        This r&eacute;sum&eacute; was wholly typeset with HTML/CSS &mdash; see <code>git.io/vVSYL</code>
       </div>
     </aside>
   </body>
