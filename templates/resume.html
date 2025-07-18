@@ -106,7 +106,23 @@
             </div>
           </div>
         </section>
-        {% endfor %}
+      {% endfor %}
+      </section>
+      <section class="main-blcok concise">
+      <h2>
+        <i class="fa fa-chalkboard-user"></i> Teaching/Training
+      </h2>
+      {% for training in trainings %}
+        <section class="blocks">
+          <div class="date">
+          </div>
+          <div class="decorator">
+          </div>
+          <div class="details">
+            {{ training }}
+          </div>
+        </section>
+      {% endfor %}
       </section>
     </section>
     <aside id="sidebar">

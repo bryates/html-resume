@@ -74,3 +74,7 @@ projects:
       - 2025
     description: 
       - Visualized historical U.S. climate trends and trained a temperature prediction model using XGBoost
+trainings:
+  - Physics graduate student git tutorial - taught graduate students with no previous experience how to use git
+  - Mentored junior researchers on data analysis, statistical methods, algorithm development, and scientific analysis
+  - Co-organizer of LPC EFT Workshop - led session and presented on how to generate statistical simulations
