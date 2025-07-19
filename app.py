@@ -23,7 +23,7 @@ def style_var(style):
     return render_template('resume.html', **html_vars)
 
 @app.route('/<back_color>/<front_color>')
-def style(style):
+def style(back_color, front_color):
     with open('data/yates.yml', 'r') as file:
         html_vars = yaml.safe_load(file)
     html_vars = get_html_vars()
