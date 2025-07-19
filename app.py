@@ -16,16 +16,12 @@ def index():
 
 @app.route('/<style>')
 def style_var(style):
-    with open('data/yates.yml', 'r') as file:
-        html_vars = yaml.safe_load(file)
     html_vars = get_html_vars()
     html_vars['style'] = f'style_{style}.css'
     return render_template('resume.html', **html_vars)
 
 @app.route('/<back_color>/<front_color>')
 def style(back_color, front_color):
-    with open('data/yates.yml', 'r') as file:
-        html_vars = yaml.safe_load(file)
     html_vars = get_html_vars()
     html_vars['style'] = f'style_var.css'
     html_vars['back_color'] = f'#{back_color}'
