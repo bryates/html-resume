@@ -28,8 +28,8 @@ def style(back_color, front_color):
         html_vars = yaml.safe_load(file)
     html_vars = get_html_vars()
     html_vars['style'] = f'style_var.css'
-    html_vars['back_color'] = back_color
-    html_vars['front_color'] = front_color
+    html_vars['back_color'] = f'#{back_color}'
+    html_vars['front_color'] = f'#{front_color}'
     return render_template('resume.html', **html_vars)
 
 if __name__ == '__main__':
