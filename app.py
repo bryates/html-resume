@@ -3,17 +3,22 @@ import yaml
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
-def index():
+def get_html_vars():
     with open('data/yates.yml', 'r') as file:
         html_vars = yaml.safe_load(file)
     html_vars['style'] = 'style.css'
+    return html_vars
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    html_vars = get_html_vars()
     return render_template('resume.html', **html_vars)
 
 @app.route('/<style>')
 def style(style):
     with open('data/yates.yml', 'r') as file:
         html_vars = yaml.safe_load(file)
+    html_vars = get_html_vars()
     html_vars['style'] = f'style_{style}.css'
     return render_template('resume.html', **html_vars)
 
